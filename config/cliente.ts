@@ -36,16 +36,16 @@ export const cliente = {
 
   // Coloque o arquivo exportado do Canva em public/camisa.png
   camisa: {
-    imagem: "/camisa.svg",
+    imagem: "/camisa.png",
     titulo: "A camisa oficial",
-    texto: "EDITAR: descreva a camisa, tamanhos e como garantir a sua.",
+    texto: "Uniforme oficial do barco incluido no pacote",
   },
 
   // Coloque as fotos em public/carrossel/ e liste aqui.
   carrossel: [
-    { src: "/carrossel/1.svg", legenda: "EDITAR: legenda 1" },
-    { src: "/carrossel/2.svg", legenda: "EDITAR: legenda 2" },
-    { src: "/carrossel/3.svg", legenda: "EDITAR: legenda 3" },
+    { src: "/carrossel/1.png"},
+    { src: "/carrossel/2.png"},
+    { src: "/carrossel/3.png"},
   ],
 };
 
