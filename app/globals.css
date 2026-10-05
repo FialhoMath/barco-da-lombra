@@ -11,6 +11,7 @@
   --color-primaria: var(--primaria);
   --color-secundaria: var(--secundaria);
   --color-terciaria: var(--terciaria);
+  --font-titulo: Impact, "Haettenschweiler", "Arial Narrow Bold", "Arial Black", sans-serif;
 }
 
 html {

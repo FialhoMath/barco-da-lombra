@@ -1,11 +1,32 @@
 // ÚNICO arquivo que muda de cliente para cliente.
 // Itens marcados com "EDITAR" são placeholders até o cliente passar os dados reais.
 
-export const cliente = {
+export type Cliente = {
+  nome: string;
+  slogan: string;
+  descricao: string;
+  logo: string;
+  instagram: { usuario: string; url: string };
+  evento: {
+    data: string;
+    horario: string;
+    explicacao: string[];
+    infos: { titulo: string; texto: string }[];
+  };
+  saida: { nome: string; busca: string };
+  destino: { nome: string; busca: string };
+  camisa: { imagem: string; titulo: string; texto: string };
+  carrossel: { src: string; legenda?: string }[];
+};
+
+export const cliente: Cliente = {
   nome: "Barco da Lombra II",
   slogan: "Você tem DUAS opções",
   descricao:
     "O Barco da Lombra ano II promete tudo que teve no primeiro só que mais organizado.",
+
+  // Imagem oficial do evento (coloque o arquivo em public/logo.png)
+  logo: "/logo.png",
 
   instagram: {
     usuario: "@barcodalombra",
@@ -43,10 +64,8 @@ export const cliente = {
 
   // Coloque as fotos em public/carrossel/ e liste aqui.
   carrossel: [
-    { src: "/carrossel/1.png"},
-    { src: "/carrossel/2.png"},
-    { src: "/carrossel/3.png"},
+    { src: "/carrossel/1.png" },
+    { src: "/carrossel/2.png" },
+    { src: "/carrossel/3.png" },
   ],
 };
-
-export type Cliente = typeof cliente;
