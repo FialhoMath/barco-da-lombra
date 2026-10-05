@@ -4,7 +4,7 @@ export default function Contato() {
   return (
     <section id="contato" className="bg-terciaria text-primaria border-t-8 border-secundaria">
       <div className="max-w-6xl mx-auto px-6 py-16 sm:py-20 text-center">
-        <h2 className="font-titulo uppercase text-4xl sm:text-5xl">Ficou com dúvida?</h2>
+        <h2 className="font-titulo uppercase text-4xl sm:text-5xl">Ficou com TESÃO?</h2>
         <p className="mt-3 text-primaria/80">Chama a gente no Instagram.</p>
         <a
           href={cliente.instagram.url}

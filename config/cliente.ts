@@ -59,7 +59,7 @@ export const cliente: Cliente = {
   camisa: {
     imagem: "/camisa.png",
     titulo: "A camisa oficial",
-    texto: "Uniforme oficial do barco incluido no pacote",
+    texto: "Uniforme PRIME do barco incluido no pacote",
   },
 
   // Coloque as fotos em public/carrossel/ e liste aqui.
